@@ -6,9 +6,12 @@ import urllib
 anon_nick = "anon-8d68c519ee4d9fc"
 receipt = "https://api.connected2.me/b/receipt_android"
 
-data = "nick=bigblackhole&password=3215987a&token=1&product_id=plus30"
+nick = ""
+password = ""
 
-data = urllib.parse.urlencode({"nick":"bigblackhole", "password":"3215987a", "token": "1", "product_id":"plus30"})
+data = "nick=" + nick + "&password=" + password +"&token=1&product_id=plus30"
+
+data = urllib.parse.urlencode({"nick":nick, "password":password, "token": "1", "product_id":"plus30"})
 
 binary_data = data.encode('utf8')
 print ("sa")
