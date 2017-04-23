@@ -12,7 +12,7 @@ def window():
     w.setGeometry(100,100,500,500)
 
     q_user_photo = QtWidgets.QLabel(w)
-    q_user_photo.setPixmap(QtGui.QPixmap("hazalaktas.jpg"))
+    q_user_photo.setPixmap(QtGui.QPixmap("xxx.jpg"))
 
 
 
